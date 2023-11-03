@@ -5,8 +5,8 @@ public class Spiro {
     double max_t = 16 * Math.PI;
     double x = 0, y = 0;
     while(t <= max_t) {
-      x =  -118.289319 + (R + r) * Math.cos((r / R) * t) - a * Math.cos((1 + r / R) * t);
-      y =  34.021351 + (R + r) * Math.sin((r / R) * t) - a * Math.sin((1 + r / R) * t);
+      x =  -118.2854468 + (R + r) * Math.cos((r / R) * t) - a * Math.cos((1 + r / R) * t);
+      y =  34.0205619 + (R + r) * Math.sin((r / R) * t) - a * Math.sin((1 + r / R) * t);
       System.out.printf("              %.5f,%.5f\n", x, y);
       t += 0.01;
     }
